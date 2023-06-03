@@ -9,7 +9,7 @@ const cors = require("cors");
 dotenv.config();
 
 //mongodb connection
-mongoose.set("strickQuery",true);
+// mongoose.set("strickQuery",true);
 connectDB();
 
 //rest obejct
